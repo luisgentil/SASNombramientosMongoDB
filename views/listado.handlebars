@@ -1,0 +1,12 @@
+<h1> Listado </h1>
+
+<ul>
+
+  <!--The below is an each helper function. This is used to iterate through an array -->
+  {{#each prod}}
+
+      <li><a href="https://juntadeandalucia.es/boja/2024/{{this.boja}}/s52" target="_blank"> BOJA nº: {{this.boja}} </a> fecha: {{this.fechaPublicacion}}. <br>" <i>{{this.descripcion}} </i> "</li>
+
+  {{/each}}
+
+</ul>

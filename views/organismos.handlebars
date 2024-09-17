@@ -1,0 +1,24 @@
+<h1> Organismos </h1>
+
+<p>Desde esta web se pueden consultar los nombramientos para cada uno de los organimos que comprobamos diariamente, que
+  en la actualidad son:</p>
+<div class="row">
+  {{#each prod}}
+  <div class="card col" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{this.nombre}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{this.nombre_completo}}</h6>
+      <p class="card-text">Puedes consultar los últimos nombramientos o la lista completa de publicaciones en cada nº de BOJA.
+      </p>
+      <a href="ultimosnombramientos/{{this.nombre}}" class="card-link">Últimos Nombramientos</a>
+      <br>
+      <a href="nombramientos/{{this.nombre}}" class="card-link">Todas las publicaciones</a>
+    </div>
+  </div>
+  {{/each}}
+</div>
+<p>Si deseas recibir un mensaje de aviso con cada nuevo nombramiento (por ahora, sólo SAE), hazte seguidor del grupo en
+  Telegram haciendo click en el banner lateral.</p>
+<br>
+
+<h5> Nombramientos + MongoDB Boja activo.</h5>
