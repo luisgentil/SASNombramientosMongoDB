@@ -11,7 +11,7 @@ function buscarNombramientoBoja3(organismoPrincipal, organismoSecundario, numBoj
 
   var hallazgos = [];
   // Definir la url de la api de Boja
-  const urlCompuesta = 'https://datos.juntadeandalucia.es/api/v0/boja/search?titleSec=2. Autoridades y personal&organisation=' + organismoPrincipal + '&type=-&subtitle=2.1.%20Nombramientos%2C%20situaciones%20e%20incidencias&version=-&order_by=id&mode=ASC&format=json&size=0&year=2024&number=' + numBoja;
+  const urlCompuesta = 'https://datos.juntadeandalucia.es/api/v0/boja/search?titleSec=2. Autoridades y personal&organisation=' + organismoPrincipal + '&type=-&subtitle=2.1.%20Nombramientos%2C%20situaciones%20e%20incidencias&version=-&order_by=id&mode=ASC&format=json&size=0&year=2026&number=' + numBoja;
   console.log(urlCompuesta);
   //  const urlCompuesta = 'https://datos.juntadeandalucia.es/api/v0/boja/search?titleSec=2.%20Autoridades%20y%20personal&organisation=' + 'Consejer%C3%ADa%20de%20Salud%20y%20Consumo' + '&type=-&subtitle=2.1.%20Nombramientos%2C%20situaciones%20e%20incidencias&version=-&order_by=id&mode=ASC&format=json&size=0&year=2023&number=' + numBoja;
   //  const urlCompuesta = 'https://datos.juntadeandalucia.es/api/v0/boja/search?titleSec=2.%20Autoridades%20y%20personal&organisation=Consejer%C3%ADa%20de%20Empleo%2C%20Empresa%20y%20Trabajo%20Aut%C3%B3nomo&type=-&subtitle=2.1.%20Nombramientos%2C%20situaciones%20e%20incidencias&version=-&order_by=id&mode=ASC&format=json&size=0&year=2023&number=' + numBoja;
